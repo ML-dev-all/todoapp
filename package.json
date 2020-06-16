@@ -2,7 +2,8 @@
   "name": "my-todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ML-dev-all.github.io/todoapp",
+  "proxy": "https://jsonplaceholder.typicode.com",
+  "homepage": "https://ML-dev-all.gnithub.io/todoapp",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.4"
   }
 }
